@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+      <header id="home">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span class="text" style="color: rgb(19, 17, 17); font-size: 2rem;" >Photography</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="#home"> <span class="text-success"> Home</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about"> <span class="text-success"> AboutMe </span></a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="text-success">    Services </span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#services"> <span class="text-success">  Photo Editing </span></a></li>
+                  <li><a class="dropdown-item" href="#services">  <span class="text-success"> Graphic-Design </span></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#services">  <span class="text-success"> Game-Desiging </span></a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">  <span class="text-success"> OurTeam </span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">  <span class="text-success"> ContactUs </span></a>
+              </li>
+        </ul>
+        </div>
+        </div>
+        
+      </nav>
+      </header>
+
+                    <!-- carousel start -->
+
+                <header>
+                  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="Images/indian.jpg" class="d-block w-100" alt="Img">
+                        <div class="carousel-caption  d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="Images/photo.jpg" class="d-block w-100" alt="Images/download.jpg">
+                        <div class="carousel-caption  d-md-block">
+                          <h5>Second slide label</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Images/girl.jpg" class="d-block w-100" alt="Images/girl.jpg">
+                        <div class="carousel-caption  d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </header>
+                
+                        <!-- carousel end -->
+
+                 <!-- About start  -->
+
+                 <section class="about py-5" id="about">
+                      <div class="container">
+                        <div class="text-center my-5">
+                          <div>
+                            <h1 data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">About <span class="text-success"> Us</span> </h1>
+                              <hr class="m-auto w-25">
+                          </div>
+                            <div class="row py-5 text-center ">
+                              <div class="col-sm-12 col-md-6 col-lg-6 col-12 " data-aos="zoom-in-left" data-aos-offset="200">
+                                    <h1>What do you <span class="text-success">want to know?</span> </h1>
+                                    
+                                    <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime tenetur laudantium saepe doloribus mollitia assumenda quas, minus explicabo dolor!
+                                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime tenetur laudantium saepe doloribus mollitia assumenda quas, minus explicabo dolor!
+                                    </p>
+                                    <button type="button" class="btn btn-light">More about me</button>
+
+                                            <br>
+                                            <br>
+                                              <div class="accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingThree">
+                                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                  Our Achievments
+                                                  </button>
+                                                </h2>
+                                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                                </div>
+                                              </div>
+                                              <div class="accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingFour">
+                                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                                  Our Dreams
+                                                  </button>
+                                                </h2>
+                                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                                </div>
+                                              </div>
+
+                                   </div>
+
+                                             <br>
+                                                    <br>
+                              <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end " data-aos="zoom-out">
+                                <div class="row my-5 text-center">
+                                      <figure >
+                                        <img src="Images/302.jpg" style="height: 60vh; width: 80%;" alt="about" class="img-fluid img-thumbnail">
+                                      </figure>
+                                </div>
+
+                            </div>
+
+                
+                 </section>
+                                  <!-- About end  -->
+
+                            <!-- Services start       -->
+
+                            <section class="services py-2 bg-light" id="services">
+                                 <div class="container">
+                                   <div class="text-center my-2">
+                                     <div>
+                                       <h1  data-aos="fade-zoom-in"
+                                       data-aos-easing="ease-in-back"
+                                       data-aos-delay="300"
+                                       data-aos-offset="0">Our <span class="text-success">  Services</span> </h1>
+                                         <hr class="m-auto w-25">
+                                     </div>
+
+                                     <div class="row my-5">
+                                        <div class="col-sm-12 col-md-4 col-lg-4 col-12"  data-aos="zoom-out-right">
+                                          <div class="card my-2">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Photo-Editing</h5>
+                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                        <div class="col-sm-12 col-md-4 col-lg-4 col-12"  data-aos="zoom-out-right">
+                                          <div class="card my-2">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Logo-Making</h5>
+                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                        <div class="col-sm-12 col-md-4 col-lg-4 col-12"  data-aos="zoom-out-right">
+                                          <div class="card my-2">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Video-Editing</h5> 
+                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                      
+                                          
+                                          <div class="col-sm-12 col-md-4 col-lg-4 col-12"  data-aos="zoom-out-left">
+                                            <div class="card my-2">
+                                              <div class="card-body">
+                                                  <h5 class="card-title">Animation</h5>
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                              </div>
+                                            </div>
+                                          </div>
+                                            
+                                          <div class="col-sm-12 col-md-4 col-lg-4 col-12"  data-aos="zoom-out-left">
+                                            <div class="card my-2">
+                                              <div class="card-body">
+                                                <h5 class="card-title">Graphic-Design</h5>
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                              </div>
+                                            </div>
+                                          </div>
+  
+                                          <div class="col-sm-12 col-md-4 col-lg-4 col-12"  data-aos="zoom-out-left">
+                                            <div class="card my-2">
+                                              <div class="card-body">
+                                                <h5 class="card-title">Game-Desiging</h5> 
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                      </div> 
+                                 </div> 
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+              </section>
+
+
+                              <!-- Services end       -->
+
+                
+             <!-- Our Team start -->
+
+
+             <section class="team py-5" id="team">
+              <div class="container">
+                <div class="text-center my-5">
+                  <div>
+                    <h1  data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500" data-aos-offset="200">Our <span class="text-success"> Team</span> </h1>
+                      <hr class="m-auto w-25">
+                  </div>
+
+                  <div class="row my-5">
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
+                      <div class="card my-2">
+                        <div class="card-body">
+                          <img src="Images/man4.jpg" alt="team"  class="img-fluid rounded-circle border border-primary">
+                          <h5 class="card-title mt-4">Photo-Editing</h5>
+                          <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, eius.</p>
+                          <a href="#" class="btn btn-outline-success">Read More</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
+                      <div class="card  my-2">
+                        <div class="card-body">
+                          <img src="Images/man2.jpg" alt="team" class="img-fluid rounded-circle border border-primary">
+                          <h5 class="card-title  mt-4">Logo-Making</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, eius.</p>
+                          <a href="#" class="btn btn-outline-success">Read More</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
+                      <div class="card  my-2">
+                        <div class="card-body">
+                          <img src="Images/man5.jpg" alt="team" class="img-fluid rounded-circle border border-primary">
+                          <h5 class="card-title  mt-4">Video-Editing</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, eius.</p>
+                          <a href="#" class="btn btn-outline-success">Read More</a>
+                        </div>
+                      </div>
+                    </div>
+        </div>
+
+
+
+                   
+            <!-- Our Team end -->
+
+
+            <!-- contact us start -->
+
+            <section class="contact py-5 " id="contact">
+              <div class="container">
+                <div class="text-center my-5">
+                  <div>
+                    <h1  data-aos="zoom-out-right"
+                    data-aos-duration="3000">Feel free <span class="text-success"> to connect us</span> </h1>
+                      <hr class="m-auto w-25">
+                  </div>
+
+                 <div class="row my-5 text-start">
+                   <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos="fade-up"
+                   data-aos-anchor-placement="center-bottom">
+                    <form class="row g-3">
+                      <div class="col-md-6">
+                        <label for="name" class="form-label">Firstname</label>
+                        <input type="name" class="form-control" id="name">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="tname" class="form-label">Lastame</label>
+                        <input type="name" class="form-control" id="name">
+                      </div>
+
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                      </div>
+                      <div class="col-12">
+                        <label for="inputAddress" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                      </div>
+                      
+                      <div class="col-md-6">
+                        <label for="inputCity" class="form-label">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                      </div>
+                      <div class="col-md-4">
+                        <label for="inputState" class="form-label">State</label>
+                        <select id="text" class="form-select">
+                          <option selected>Choose...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="col-md-2">
+                        <label for="inputZip" class="form-label">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                      </div>
+
+                      <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Something else here</label>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="gridCheck">
+                          <label class="form-check-label" for="gridCheck">
+                            Check me out
+                          </label>
+                        </div>
+                      </div>
+                      <div class="d-grid gap-2 col-6 mx-auto">
+                        <div class="btn text-center"></div>
+                        <button type="button" class="btn btn-outline-success btn-lg text-center">SignIn</button>
+                      </div>
+                    </form>
+                   </div>
+
+                   
+                   <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end" data-aos="fade-up"
+                   data-aos-duration="2000">
+                   <div class="row my-5 text-center">
+
+                  
+                   <figure>
+                    <img src="Images/man7.jpg" style="height: 66%; width: 80%;" alt="about" class="img-fluid img-thumbnail">
+
+                   </figure>
+                  
+                  </div>
+                </div>
+             </div>
+           </div>
+        </div>
+     </div>
+ </section>
+                 
+
+                  
+                        <!-- contact us end -->
+
+
+                        <!-- footer start -->
+
+                        <footer class="bg-secondary text-center text-white">
+                        
+                          <p class="text-dark">@copyright Kalyani Gholse</p>
+
+                        </footer>
+
+                        <!-- footer end -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
